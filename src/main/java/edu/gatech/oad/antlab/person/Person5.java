@@ -8,6 +8,8 @@ package edu.gatech.oad.antlab.person;
  *  @author Bob
  *  @version 1.1
  */
+ 
+ 
 public class Person5 {
   /** Holds the persons real name */
   private String name;
@@ -30,8 +32,22 @@ public class Person5 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 5 put your implementation here
-	  return null;
+	  
+	  int len = input.length();
+	  String temp = "";
+	  if (len == 0) { return ""; } //handle small-string cases
+	  else if (len == 1 || len == 2) { return input; } //if the string is length 2, 2 shifts leaves it unchanged
+	  
+      for(int i = 0; i < len - 2; i++) {
+      
+        temp = temp + input.substring(i + 2, i + 3);
+      
+      }
+      
+      temp = temp + input.substring(0, 2);	 
+      
+      return temp; 
+
 	}
 	
 	/**
