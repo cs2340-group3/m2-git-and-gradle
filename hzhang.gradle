@@ -1,4 +1,8 @@
 // Haofeng Zhang (hzhang385)
+
+// Run: gradle -b hzhang.gradle jar
+// After build: cd build/libs && java -jar m2-git-and-gradle.jar
+
 apply plugin: "java"
 
 dependencies {
