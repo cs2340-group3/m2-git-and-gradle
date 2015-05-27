@@ -1,0 +1,6 @@
+_Store
+.project
+.classpath
+bin/
+build/
+.gradle/
