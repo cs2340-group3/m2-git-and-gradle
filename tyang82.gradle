@@ -10,10 +10,3 @@ jar{
 		attributes "Class-Path": "resources.jar"
 	}
 }
-
-jar <<{
-	copy{
-		into "build/libs"
-		from configurations.compile
-	}
-}
