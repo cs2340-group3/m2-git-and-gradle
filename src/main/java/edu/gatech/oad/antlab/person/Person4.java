@@ -35,7 +35,7 @@ public class Person4 {
         char[] s = new char[len];
         int i = 0;
         for (char c : input.toCharArray()) {
-            s[i++] = c + 1;
+            s[i++] = (char)(c + 1);
         }
         return new String(s);
     }
