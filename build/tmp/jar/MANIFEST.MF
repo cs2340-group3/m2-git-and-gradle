@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+Manifest-Version: 1.0
+Main-Class: edu.gatech.oad.antlab.pkg1.AntLabMain
+Class-Path: resources.jar
+
+=======
+Manifest-Version: 1.0
+Main-Class: edu.gatech.oad.antLab.pkg1.AntLabMain
+Class-Path: resources.jar
+
+>>>>>>> tyang82

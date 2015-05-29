@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 _Store
 .project
 .classpath
 bin/
 build/
 .gradle/
+=======
+.DS_Store
+.project
+.classpath
+bin/
+.gradle/
+build/
+>>>>>>> c3a030d5d78c3383821c057991d202bbc2332af9
